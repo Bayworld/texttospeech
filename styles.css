@@ -103,7 +103,7 @@
 
   @media (max-width: 700px) {
     main {
-      width: 60vw;
+      width: 60vw; 
     }
 
     .text-title{
@@ -113,6 +113,20 @@
     .voice-title{
       padding: 10px;
     }
+
+    #voice{
+      margin-left: 10px;
+    }
+
+    #text{
+      /* border: 12px double red; */
+      /* padding: 0.5rem; */
+      /* border-radius: 30px; */
+      margin-left: 10px;
+    }
+
+    textarea { resize:horizontal; max-width:280px; min-width:200px; } 
+    select { resize:horizontal; max-width:280px; min-width:200px; }
   }
 
   @viewport {
